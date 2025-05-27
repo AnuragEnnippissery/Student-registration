@@ -159,6 +159,7 @@ function display(event){
             studentsData[studentId].formAddress = input2.value;
             sessionStorage.setItem("studentsData", JSON.stringify(studentsData));
 
+            
         })
     })
 
