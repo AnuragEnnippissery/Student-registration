@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 class="heading">Student Registration Details</h3>
+            <a class="Abutton heading" href="display.html" target="_self">To View Student Details</a>
+        </div>
+
+    
+        <div class="fregistration">
+            <form >
+                <label for="fname" class="titleName">Full Name</label>
+                <input type="text" id="fname" required pattern="[A-Za-z\s]+" maxlength="50" name="fname"><br>
+                
+                <label for="fclass" class="titleName">Class</label>
+                <input type="text" id="fclass" required pattern="[A-Za-z0-9\-]+" maxlength="10" name="fclass"><br>
+                
+                <label for="faddress" class="titleName">Address</label>
+                <input type="text" id="faddress" name="faddress"><br>
+                
+                <label for="fphone" class="titleName">Phone Number</label>
+                <input type="number" id="fphone" required pattern="\d{10}" name="fphonenumber"><br>
+
+                <button  id="Sbutton"onclick="display(event)">Submit</button>
+                
+            </form>
+        </div>
+        <div >
+            <p id="namePara" class="resultData">
+                    <span id="resultName"></span>
+                </p>
+            <p id="classPara" class="resultData"><span id="resultClass"></span></p>
+            <p id="addressPara" class="resultData"><span id="resultAddress"></span></p>
+            <p id="phonePara" class="resultData"><span id="resultPhone"></span></p>
+        </div>
+        <a  class="Abutton"   href="display.html" target="_self">Add new student details</a>
+        
+
+    </div>
+</body>
+</html>

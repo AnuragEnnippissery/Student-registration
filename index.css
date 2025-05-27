@@ -1,0 +1,76 @@
+
+/*body{
+    background-color: blueviolet;
+}*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+.heading{
+    text-align: center;
+}
+.fregistration{
+    border:2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    width: 500px;
+    margin:auto;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.resultData{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    
+}
+.innerData{
+    display: flex;
+    justify-content: space-between;
+}
+#resultName button{
+    margin-left:10px;
+}
+.titleName{
+    padding: 20px;
+    display: inline-flex;
+    width: 100px;
+    
+}
+#Sbutton{
+    display:inline-flex;
+    justify-content: center;
+    border:2px solid black;
+}
+.button-group {
+  display: flex;
+  gap: 10px; /* <-- Adjust this value for more or less space */
+}
+.Abutton{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid blue;
+    color: black;
+    width:fit-content;
+    margin:auto;
+    transition: all 0.2s ease-in-out;
+}
+.Abutton:hover {
+  background-color: lightgreen;
+  font-size: 18px;
+}
