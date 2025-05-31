@@ -29,13 +29,13 @@ function display(event){
 
     sessionStorage.setItem("studentsData", JSON.stringify(studentsData));
 
-
+    }
     /*sessionStorage.setItem("fullname", fullname);
     sessionStorage.setItem("formclass", formclass);
     sessionStorage.setItem("formAddress", formAddress);
     sessionStorage.setItem("formPhone", formPhone);*/
     //----------------code end --------------------
-
+    /*
     let itemName=document.getElementById("resultName")
     itemName.innerHTML=fullname;
     const deleteButton=document.createElement("button")
@@ -211,4 +211,4 @@ function display(event){
         })
     })
 
-}
+}*/

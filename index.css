@@ -69,6 +69,8 @@ body {
     width:fit-content;
     margin:auto;
     transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+
 }
 .Abutton:hover {
   background-color: lightgreen;
